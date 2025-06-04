@@ -17,13 +17,19 @@ items:
  - docsifyjs/docsify
  - mkdocs/mkdocs
  - sintaxi/harp
- - netlify/netlify-cms
+ - decaporg/decap-cms
  - jaspervdj/hakyll
  - umijs/umi
  - abelljs/abell
  - withastro/astro
  - tlienart/Franklin.jl
  - getzola/zola
+ - lumeland/lume
+ - docsifyjs/docsify
+ - shuding/nextra
+ - twostraws/Ignite
+ - JohnSundell/Publish
+ - fuma-nama/fumadocs
 display_name: Static Site Generators
 created_by: jakejarvis
 ---

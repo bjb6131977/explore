@@ -1,7 +1,7 @@
 ---
 items:
 - golang/go
-- apple/swift
+- swiftlang/swift
 - microsoft/TypeScript
 - rust-lang/rust
 - JetBrains/kotlin
@@ -46,7 +46,7 @@ items:
 - ziglang/zig
 - HaxeFoundation/haxe
 - livecode/livecode
-- coq/coq
+- rocq-prover/rocq
 - vlang/v
 - dart-lang/sdk
 - pharo-project/pharo
@@ -63,10 +63,16 @@ items:
 - QB64Team/qb64
 - gleam-lang/gleam
 - Gwion/Gwion
-- vlang/v
 - carbon-language/carbon-lang
 - imba/imba
-- Jackojc/cane
+- tarpit-collective/cane
+- cython/cython
+- modular/modular
+- odin-lang/Odin
+- apache/groovy
+- ValeLang/Vale
+- factor/factor
+- julelang/jule
 display_name: Programming languages
 created_by: leereilly
 ---

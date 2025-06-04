@@ -8,6 +8,9 @@ on:
   workflow_dispatch:
   merge_group:
 
+permissions:
+  contents: read
+
 jobs:
   test:
     strategy:
@@ -19,7 +22,7 @@ jobs:
           - all
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4.2.2
         with:
           fetch-depth: 0
 
@@ -40,7 +43,7 @@ jobs:
 
       - name: Setup Ruby
         if: ${{ steps.topics.outputs.changed || steps.collections.outputs.changed || steps.all.outputs.changed }}
-        uses: ruby/setup-ruby@v1
+        uses: ruby/setup-ruby@13e7a03dc3ac6c3798f4570bfead2aed4d96abfb # v1.244.0
         with:
           bundler-cache: true
 

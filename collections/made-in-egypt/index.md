@@ -10,7 +10,6 @@ items:
   - RobustaStudio/Resala
   - swvl/express-versioned-route
   - Ahmed-Ali/JSONExport
-  - piscibus/notifly
   - gogearbox/gearbox
   - ahegazy/php-mvc-skeleton
   - aboul3la/Sublist3r
@@ -20,7 +19,7 @@ items:
   - abdumostafa/awesome-in-arabic
   - hci-lab/PyQuran
   - DrWaleedAYousef/Teaching
-  - MoatazBadawy/Sunset-hadith
+  - amr3k/sveltegram
 display_name: Made in Egypt
 created_by: AN4553R
 image: made-in-egypt.png
